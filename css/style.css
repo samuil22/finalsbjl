@@ -32,6 +32,9 @@ body::before {
   width: 97.2%;
   margin: 0 auto;
 }
+.margin5Oauto{
+  margin:50px auto;
+}
 /*my style start*/
 
 .Deposit {
@@ -456,18 +459,13 @@ marquee {
   /*border: 3px solid #0069D9;*/
   padding: 10px;
 }
-
-
 /* Slider bottom */
-
 .slick-slide {
     margin: 0px 20px;
 }
-
 .slick-slide img {
     width: 100%;
 }
-
 .slick-slider
 {
     position: relative;
@@ -483,7 +481,6 @@ marquee {
         touch-action: pan-y;
     -webkit-tap-highlight-color: transparent;
 }
-
 .slick-list
 {
     position: relative;
@@ -501,7 +498,6 @@ marquee {
     cursor: pointer;
     cursor: hand;
 }
-
 .slick-slider .slick-track,
 .slick-slider .slick-list
 {
@@ -511,7 +507,6 @@ marquee {
          -o-transform: translate3d(0, 0, 0);
             transform: translate3d(0, 0, 0);
 }
-
 .slick-track
 {
     position: relative;
@@ -533,7 +528,6 @@ marquee {
 {
     visibility: hidden;
 }
-
 .slick-slide
 {
     display: none;
@@ -583,7 +577,6 @@ marquee {
 .about_text:hover{
   cursor: pointer;
 }
-
 .about_text img{
   height: 260px;
 }
@@ -702,8 +695,6 @@ marquee {
 .practice-area .inner img{
   display:inline-block;
 }
-
-
 .our-webcoderskull{
   /*background: url("http://www.webcoderskull.com/img/right-sider-banner.png") no-repeat center top / cover;*/
   background: url("../img/next/Halkar Upor Jhapsha.png");
@@ -765,9 +756,7 @@ marquee {
 .our-webcoderskull .cnt-block .follow-us li .fa:hover{ 
    color:#025a8e;
 }
-
 /*investment area end*/
-
 /*forain exchange rate start*/
 .table_style1{
   background: #F8F8F8;
@@ -776,9 +765,7 @@ marquee {
 }
 .table_style1{
   /*border: 3px solid #000;*/
- 
 }
-
 .table_style1 h5{
   font-size: 22px;
   border-bottom: 3px solid #1DC6F4;
@@ -806,7 +793,109 @@ marquee {
 .news_sty ul li a{}
 /*forain exchange rate end*/
 
-
+/*about page area start*/
+.about{
+  color: #173456;
+  background:transparent;
+  margin-top: 170px;
+}
+.about_top_text{
+  padding-top: 112px;
+  text-align: justify;
+  height: 80vh;
+}
+.our_vis h4{
+  font-size: 22px;
+  font-weight: 501;
+}
+.mission {
+    
+}
+.cor_h4{
+    font-size: 22px;
+  font-weight: 501;
+}
+.lef_t{
+    background:#284774;
+  color:#fff;
+  border-bottom: 2px solid #fff;
+  padding: 5px 30px;
+}
+.lef_t_text {
+    padding: 1px 27px;
+    background: #fff;
+}
+/*about page area end*/
+/*board of directors starts*/
+.director {
+    margin: 184px auto;
+    height: 100%;
+    color: #284774;
+}
+.di_text{
+  margin: 0 auto;
+}
+.die_head_img {
+    margin: 35px auto;
+    height: 100%;
+    width: 250px;
+    text-align: center;
+}
+.die_head_img img{
+  height: 250px;
+  width: 100%;
+}
+.di_text h1{
+  float: right;
+  font-size: 35px;
+  padding: 11px 4px 0px 3px;
+  color: #284774;
+}
+.di_text img{
+  height: 81px;
+  margin-right: 24px;
+}
+.b_hr {
+    border: 1px solid #21507A;
+    margin: -25px 101px;
+    width: 30%;
+}
+.die_head_img h5 {
+    font-size: 22px;
+    font-weight: 501;
+    padding: 5px;
+}
+/*board of directors end*/
+/*supervice area start*/
+.supervice{
+  height: 100%;
+  margin-top:170px ;
+  color: #21507A;
+}
+.gi{
+  background-image: url('../img/photo/Committee.png');
+  background-repeat: no-repeat;
+  position: absolute;
+  top: -6px;
+  height: 58px;
+  width: 108px;
+  background-size: contain;
+  z-index: 30;
+  left: -3px;
+}
+.sup_head{
+  position: relative;
+  margin: 0 auto;
+  width: 300px;
+  background:#fff;
+  text-align: center;
+}
+.sup_head h4{
+  background: #21507A;
+  padding: 15px;
+  color:#fff;
+}
+/*supervice area start*/
 /*footer*/
 
 .footer_next{
