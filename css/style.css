@@ -796,13 +796,29 @@ marquee {
 /*about page area start*/
 .about{
   color: #173456;
+  background-image: url('../img/photo/about4.jpg');
+  margin-top: 170px;
+  background-size: cover;
+}.about_w{
+  color: #173456;
+  background:transparent;
+  margin-top: 80px;
+}.about_d{
+  color: #173456;
   background:transparent;
   margin-top: 170px;
 }
+.about_back_bg{
+
+}
 .about_top_text{
-  padding-top: 112px;
+  padding: 150px;
   text-align: justify;
   height: 80vh;
+}
+.about_top_text h3{
+  font-size: 30px;
+  font-weight: 700;
 }
 .our_vis h4{
   font-size: 22px;
@@ -880,22 +896,85 @@ marquee {
   height: 58px;
   width: 108px;
   background-size: contain;
-  z-index: 30;
+  z-index: 0;
   left: -3px;
 }
 .sup_head{
   position: relative;
-  margin: 0 auto;
-  width: 300px;
+  margin: 45px auto;
+  width: 400px;
   background:#fff;
   text-align: center;
+  border: 3px solid #ccc;
+  padding: 1px;
 }
 .sup_head h4{
   background: #21507A;
   padding: 15px;
   color:#fff;
 }
+.sup_hr{
+  width: 64%;
+  border: 1px solid #ccc;
+}
+.sup_head h5{
+  font-size: 17px;
+  font-weight: 501;
+  margin-top: 25px;
+}
+.sup_head p{
+  padding: 22px;
+  font-size: 13px;
+}
 /*supervice area start*/
+/*deposit_feature area start*/
+.dis_m_h4{
+  padding: 28px 0;
+  font-size: 33px;
+  font-weight: 501;
+}
+.b_apply{
+  text-align: center;
+
+}
+.btn_Aa{
+  margin-bottom: 36px;
+font-size: 20px;
+border-bottom: 3px solid
+#0079FF;
+color:
+#0079FF;
+}
+/*deposit_feature area start*/
+.col-md-12.m_apply li {
+    list-style: none;
+    border: 2px solid 
+    #ccc;
+    padding: 14px;
+}
+.bt_ap{
+  float: right;
+  padding: 4px 25px;
+  background: #1B3862;
+  font-size: 15px;
+  border: none;
+}
+/*apply area start*/
+.m_apply li {
+    list-style: none;
+    border: 2px solid 
+    #ccc;
+    padding: 14px;
+    margin: 7px 0px;
+}
+.bt_sup{
+  padding: 9px 35px;
+  font-size: 15px;
+  margin: 20px;
+  border: 2px solid #1080E6;
+  color: #1080E6;
+}
+/*apply area end*/
 /*footer*/
 
 .footer_next{
