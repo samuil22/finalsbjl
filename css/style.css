@@ -860,6 +860,8 @@ marquee {
 .die_head_img img{
   height: 250px;
   width: 100%;
+  border-radius: 50%;
+  border: 7px solid;
 }
 .di_text h1{
   float: right;
