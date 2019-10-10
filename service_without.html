@@ -60,7 +60,7 @@
 		        <a class="nav-link" href="Foundation_Committee.html">Foundation</a>
 		      </li>
 		      <li class="nav-item">
-		        <a class="nav-link" href="#">Deposit</a>
+		        <a class="nav-link" href="service_without.html">Deposit</a>
 		      </li> 
 		      <li class="nav-item">
 		        <a class="nav-link" href="#">Investment</a>
@@ -83,6 +83,40 @@
 
 <div class="container about_d" style="">
   	<div class="row ">
+  		<div class="col-md-4">
+  			<div class="sidenav">
+ 
+				  <button class="dropdown-btn">Demand Deposit Account 
+				    <i class="fa fa-caret-down"></i>
+				  </button>
+				  <div class="dropdown-container">
+				    <a href="#">Al Wadiah Current Deposit (AWCD) Account</a>
+				    <a href="#">Mudaraba Savings Deposit (MSD) Account</a>
+				    <a href="#">Mudaraba Money Spinning (MMS) Account</a>
+				    <a href="#">Mudaraba School Banking (MSB) Account</a>
+				    <a href="#">Mudaraba Special Notice Deposit (MSND) Account</a>
+				  </div>
+				 <button class="dropdown-btn">Time Deposit - Fixed Term
+				    <i class="fa fa-caret-down"></i>
+				  </button>
+				  <div class="dropdown-container">
+				    <a href="#">Mudaraba Term Deposit Receipt (MTDR)</a>
+				    <a href="#">Mudaraba Double Money Scheme (MDMS)</a>
+				    <a href="#">Mudaraba Monthly Income Scheme (MMIS)</a>
+				    <a href="#">Mudaraba Monthly Deposit Scheme (MMDS)</a>
+				    <a href="#">Mudaraba Millionaire Scheme (MMS)</a>
+				    <a href="#">Mudaraba Hajj Deposit Scheme (MHDS)</a>
+				  </div>
+				  <button class="dropdown-btn">Time Deposit - Perpetual Term
+				    <i class="fa fa-caret-down"></i>
+				  </button>
+				  <div class="dropdown-container">
+				    <a href="#">Cash Waqf Deposit (CWD) Account</a>
+				    
+				  </div>
+			</div>
+  		</div>
+  		<div class="col-md-8">
        		<div class="col-md-12 vis_m_text">
        			<h4 class="dis_m_h4">Mudaraba Savings Deposit (MSD) Account</h4> 
        			<h4 class="cor_h4">Who Can Open ?</h4>  
@@ -98,30 +132,30 @@
 				MSD is mainly meant for Non-Business customers who have some potential savings surplus with limited number of transactions taking place. The main objective of this account is to make savings frequently with earning some profits on deposits.</p>
        		</div>
        
-       <div class="col-md-12 row mission margin5Oauto">
-			<h4 class="cor_h4">Terms And Conditions</h4> 
-       		<div class="col-md-12 miss_m_text">
-       			<li>Limited Companies and Business Enterprises are not allowed to open MSD account.</li>
-       			<li>No overdraw facility is permitted in MSD account.</li>
-       			<li>Maintenance fees will be realized on bi-annual basis.</li>
-       			<li>Source Tax and Excise Duty to be deducted as per the law of the land.</li>
-       			<li>Minimum initial deposit is BDT 2000.</li>
-       			<li>Profit forfeiture Rule.</li>
-       			
-       			
-       			
-       			
+       		<div class="col-md-12 row mission margin5Oauto">
+				<h4 class="cor_h4">Terms And Conditions</h4> 
+	       		<div class="col-md-12 miss_m_text">
+	       			<li>Limited Companies and Business Enterprises are not allowed to open MSD account.</li>
+	       			<li>No overdraw facility is permitted in MSD account.</li>
+	       			<li>Maintenance fees will be realized on bi-annual basis.</li>
+	       			<li>Source Tax and Excise Duty to be deducted as per the law of the land.</li>
+	       			<li>Minimum initial deposit is BDT 2000.</li>
+	       			<li>Profit forfeiture Rule.</li>
+	       		</div>
        		</div>
+       		<div class="col-md-12">
+        	<div class="b_apply">
+        		<a href="serv_apply.html"><button class="btn bt_sup"> Apply</button></a>
+        	</div>
+        </div>
        </div>
        
 	</div>
 </div>
 
-
-
 <!--footer starts from here-->
 <footer class="footer">
-	<div class="footer_next">
+<div class="footer_next">
 <div class="container bottom_border">
 <div class="row">
 <div class=" col-sm-4 col-md  col-6 col">
@@ -235,7 +269,23 @@ Bangladesh
 <script  src="https://code.jquery.com/jquery-3.4.1.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.6.0/slick.js"></script>
 
+<script>
+/* Loop through all dropdown buttons to toggle between hiding and showing its dropdown content - This allows the user to have multiple dropdowns without any conflict */
+var dropdown = document.getElementsByClassName("dropdown-btn");
+var i;
 
+for (i = 0; i < dropdown.length; i++) {
+  dropdown[i].addEventListener("click", function() {
+  this.classList.toggle("active");
+  var dropdownContent = this.nextElementSibling;
+  if (dropdownContent.style.display === "block") {
+  dropdownContent.style.display = "none";
+  } else {
+  dropdownContent.style.display = "block";
+  }
+  });
+}
+</script>
 
 <script>
 

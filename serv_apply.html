@@ -60,7 +60,7 @@
 		        <a class="nav-link" href="Foundation_Committee.html">Foundation</a>
 		      </li>
 		      <li class="nav-item">
-		        <a class="nav-link" href="#">Deposit</a>
+		        <a class="nav-link" href="service_without.html">Deposit</a>
 		      </li> 
 		      <li class="nav-item">
 		        <a class="nav-link" href="#">Investment</a>
@@ -83,6 +83,40 @@
 
 <div class="container about_d" style="">
   	<div class="row ">
+  		<div class="col-md-4">
+  			<div class="sidenav">
+ 
+				  <button class="dropdown-btn">Demand Deposit Account 
+				    <i class="fa fa-caret-down"></i>
+				  </button>
+				  <div class="dropdown-container">
+				    <a href="#">Al Wadiah Current Deposit (AWCD) Account</a>
+				    <a href="#">Mudaraba Savings Deposit (MSD) Account</a>
+				    <a href="#">Mudaraba Money Spinning (MMS) Account</a>
+				    <a href="#">Mudaraba School Banking (MSB) Account</a>
+				    <a href="#">Mudaraba Special Notice Deposit (MSND) Account</a>
+				  </div>
+				 <button class="dropdown-btn">Time Deposit - Fixed Term
+				    <i class="fa fa-caret-down"></i>
+				  </button>
+				  <div class="dropdown-container">
+				    <a href="#">Mudaraba Term Deposit Receipt (MTDR)</a>
+				    <a href="#">Mudaraba Double Money Scheme (MDMS)</a>
+				    <a href="#">Mudaraba Monthly Income Scheme (MMIS)</a>
+				    <a href="#">Mudaraba Monthly Deposit Scheme (MMDS)</a>
+				    <a href="#">Mudaraba Millionaire Scheme (MMS)</a>
+				    <a href="#">Mudaraba Hajj Deposit Scheme (MHDS)</a>
+				  </div>
+				  <button class="dropdown-btn">Time Deposit - Perpetual Term
+				    <i class="fa fa-caret-down"></i>
+				  </button>
+				  <div class="dropdown-container">
+				    <a href="#">Cash Waqf Deposit (CWD) Account</a>
+				    
+				  </div>
+			</div>
+  		</div>
+  		<div class="col-md-8">
        		<div class="col-md-12 vis_m_text">
        			<h4 class="dis_m_h4">Mudaraba Savings Deposit (MSD) Account</h4> 
        			<h4 class="cor_h4">Who Can Open ?</h4>  
@@ -102,25 +136,25 @@
 			<h4 class="cor_h4">Basic Requirments</h4> 
        		<div class="col-md-12 m_apply">
        			<li>Account opening form duly filled up and signed by account holder(s) 
-       				<button class="btn btn-primary bt_ap" >Upload</button>
+       			<!-- 	<button class="btn btn-primary bt_ap" >Upload</button> -->
        			</li>
-       			<li>02 Copies passport size recent photographs of the applicant(s) duly attested by the introducer
-       				<button class="btn btn-primary bt_ap" >Upload</button>
+       			<li>passport size recent photographs of the applicant(s) duly attested by the introducer
+       				
        			</li>
-       			<li>01 copy passport size recent photograph of the Nominee duly attested by the account holder 
-       				<button class="btn btn-primary bt_ap" >Upload</button>
+       			<li>passport size recent photograph of the Nominee duly attested by the account holder 
+       				
        			</li>
-       			<li>01 copy passport size recent photograph of the Nominee duly attested by the account holder 
-       				<button class="btn btn-primary bt_ap" >Upload</button>
+       			<li>passport size recent photograph of the Nominee duly attested by the account holder 
+       				
        			</li>
        			<li>NID/Passport/Any other valid photo identify of applicant and nominee
-       				<button class="btn btn-primary bt_ap" >Upload</button>
+       				
        			</li>
        			<li>Updated TIN Certificate of applicant ( if any )
-       				<button class="btn btn-primary bt_ap" >Upload</button>
+       				
        			</li>
        			<li>Signature and details of Introducer 
-       				<button class="btn btn-primary bt_ap" >Upload</button>
+       				
        			</li>
 
        			
@@ -131,13 +165,13 @@
 			<h4 class="cor_h4">Additional Requirments</h4> 
        		<div class="col-md-12 m_apply">
        			<li>Account opening form duly filled up and signed by account holder(s) 
-       				<button class="btn btn-primary bt_ap" >Upload</button>
+       				
        			</li>
-       			<li>02 Copies passport size recent photographs of the applicant(s) duly attested by the introducer
-       				<button class="btn btn-primary bt_ap" >Upload</button>
+       			<li> passport size recent photographs of the applicant(s) duly attested by the introducer
+       				
        			</li>
-       			<li>01 copy passport size recent photograph of the Nominee duly attested by the account holder 
-       				<button class="btn btn-primary bt_ap" >Upload</button>
+       			<li>passport size recent photograph of the Nominee duly attested by the account holder 
+       				
        			</li>
        		
 
@@ -154,16 +188,13 @@
        			<li>Source Tax and Excise Duty to be deducted as per the law of the land.</li>
        			<li>Minimum initial deposit is BDT 2000.</li>
        			<li>Profit forfeiture Rule.</li>
-       			
-       			
-       			
-       			
        		</div>
        </div>
        <div class="col-md-12">
         	<div class="b_apply">
         		<button class="btn bt_sup"> Submit</button>
         	</div>
+        </div>
         </div>
 	</div>
 </div>
@@ -287,6 +318,23 @@ Bangladesh
 <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.6.0/slick.js"></script>
 
 
+<script>
+/* Loop through all dropdown buttons to toggle between hiding and showing its dropdown content - This allows the user to have multiple dropdowns without any conflict */
+var dropdown = document.getElementsByClassName("dropdown-btn");
+var i;
+
+for (i = 0; i < dropdown.length; i++) {
+  dropdown[i].addEventListener("click", function() {
+  this.classList.toggle("active");
+  var dropdownContent = this.nextElementSibling;
+  if (dropdownContent.style.display === "block") {
+  dropdownContent.style.display = "none";
+  } else {
+  dropdownContent.style.display = "block";
+  }
+  });
+}
+</script>
 
 <script>
 
